@@ -8,7 +8,7 @@ function goToStructGuess(doc) {
         spanish: doc.data().spanish
     })
     .then(function() {
-        window.location.href = 'theory.html';
+        window.location.href = 'index.html';
     })
     .catch(function(error) {
         console.error("Error writing to Firestore: ", error);
