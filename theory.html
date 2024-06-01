@@ -1,0 +1,22 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<script  src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>  
+        <script  src="https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore-compat.js"></script>
+		<link  href="theory.css"  rel="stylesheet"  />
+	</head>
+	<body>
+		Enter the original English text:<br>
+		<textarea  id="englishText"></textarea><br>
+		<button  type="button"  id="englishButton" onclick=printStructure()>Done</button><br>
+		Enter the translated Spanish text:<br>
+		<textarea  id="spanishText"></textarea><br>
+		<button  type="button"  id="spanishButton"  onclick="printSpanish()">Done</button>
+        <button type="button" onclick="goToSenMan()">Go to Sentence Manager</button><br>
+		<p  id="spanishLegend"></p>
+		<p  id="englishStructure"></p>
+		<!--Our files share the name 'theory'-->
+		<script src="config.js"></script>
+		<script  src="theory.js"></script>
+	</body>
+</html>
