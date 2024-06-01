@@ -1,0 +1,21 @@
+.rectangle {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .region {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .region p {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-between;
+  }
